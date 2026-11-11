@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dang Bai Cat Tuong</title>
+<!-- GOOGLE_SITE_VERIFICATION -->
+<style>
+  :root { --bg: #faf8f3; --fg: #23302a; --muted: #5c6b63; --accent: #2f6b4f; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; color: var(--accent); }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid #ddd6c8; margin: 40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dang Bai Cat Tuong</h1>
+  <p class="muted">Internal publishing tool of Phỉ Thuý Cát Tường (Cẩm Thạch Cát Tường)</p>
+
+  <h2>What it is</h2>
+  <p>Dang Bai Cat Tuong is a small command-line tool used only by the owner of the YouTube channel
+  "Cẩm Thạch Cát Tường (Phỉ Thuý Cát Tường)". It runs on the owner's own computer and uploads the
+  channel's own finished videos to that same channel, with title, description, thumbnail and a scheduled publish time.</p>
+
+  <h2>How it uses the YouTube API</h2>
+  <ul>
+    <li><code>videos.insert</code>: upload a video to the owner's channel as private with a scheduled <code>publishAt</code> time.</li>
+    <li><code>thumbnails.set</code>: set the custom thumbnail of that uploaded video.</li>
+    <li><code>channels.list</code> (<code>mine=true</code>): show the connected channel name so the owner can confirm the right channel.</li>
+  </ul>
+  <p>It does not read, store or display data of any other YouTube user or channel. It is not offered to the public.</p>
+
+  <p><a href="privacy.html">Privacy Policy</a> · Contact: <a href="mailto:phithuycattuong999@gmail.com">phithuycattuong999@gmail.com</a></p>
+
+  <hr>
+
+  <h1>Dang Bai Cat Tuong</h1>
+  <p class="muted">Công cụ đăng bài nội bộ của Phỉ Thuý Cát Tường</p>
+  <p>Công cụ dòng lệnh chạy trên máy của chủ kênh YouTube "Cẩm Thạch Cát Tường (Phỉ Thuý Cát Tường)",
+  dùng để tải video thành phẩm của chính kênh lên chính kênh đó, kèm tiêu đề, mô tả, ảnh bìa và giờ công khai.
+  Không đọc hay lưu dữ liệu của người dùng khác, không cung cấp cho công chúng.</p>
+  <p><a href="privacy.html">Chính sách quyền riêng tư</a></p>
+</main>
+</body>
+</html>
